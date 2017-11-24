@@ -1,0 +1,19 @@
+{
+    "name": "panpan76/database",
+    "license": "Apache License",
+    "autoload": {
+        "psr-4": {
+            "Database\\": "src/"
+        }
+    },
+    "require": {
+        "php": "7.*"
+    },
+    "authors": [
+        {
+            "name": "Panpan76",
+            "email": "cedric.moclyn@hotmail.fr"
+        }
+    ],
+    "minimum-stability": "dev"
+}
