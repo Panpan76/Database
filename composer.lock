@@ -4,8 +4,74 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "29b0ea907b000b66173df6eb2803c78c",
-    "packages": [],
+    "content-hash": "ba1c200937385c11db3551f9499bf0ef",
+    "packages": [
+        {
+            "name": "panpan76/informations",
+            "version": "0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Panpan76/Informations.git",
+                "reference": "2b730a8b83692619514e81708c7baf5d733a849e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Panpan76/Informations/zipball/2b730a8b83692619514e81708c7baf5d733a849e",
+                "reference": "2b730a8b83692619514e81708c7baf5d733a849e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Informations\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Panpan76",
+                    "email": "cedric.moclyn@hotmail.fr"
+                }
+            ],
+            "time": "2017-12-14T13:23:19+00:00"
+        },
+        {
+            "name": "panpan76/logguer",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Panpan76/Logguers.git",
+                "reference": "f1d032fd46a460767d874fa99d3d2c74a82e09d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Panpan76/Logguers/zipball/f1d032fd46a460767d874fa99d3d2c74a82e09d1",
+                "reference": "f1d032fd46a460767d874fa99d3d2c74a82e09d1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Logguers\\": "src/Logguers",
+                    "Exceptions\\": "src/Exceptions"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Panpan76",
+                    "email": "cedric.moclyn@hotmail.fr"
+                }
+            ],
+            "time": "2017-12-14T10:54:50+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",

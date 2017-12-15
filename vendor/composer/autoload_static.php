@@ -7,6 +7,18 @@ namespace Composer\Autoload;
 class ComposerStaticInitb150e9b53fd535b4a431c76ec8d86671
 {
     public static $prefixLengthsPsr4 = array (
+        'L' => 
+        array (
+            'Logguers\\' => 9,
+        ),
+        'I' => 
+        array (
+            'Informations\\' => 13,
+        ),
+        'E' => 
+        array (
+            'Exceptions\\' => 11,
+        ),
         'D' => 
         array (
             'Database\\' => 9,
@@ -14,6 +26,18 @@ class ComposerStaticInitb150e9b53fd535b4a431c76ec8d86671
     );
 
     public static $prefixDirsPsr4 = array (
+        'Logguers\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/panpan76/logguer/src/Logguers',
+        ),
+        'Informations\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/panpan76/informations/src',
+        ),
+        'Exceptions\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/panpan76/logguer/src/Exceptions',
+        ),
         'Database\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',

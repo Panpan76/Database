@@ -6,5 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Logguers\\' => array($vendorDir . '/panpan76/logguer/src/Logguers'),
+    'Informations\\' => array($vendorDir . '/panpan76/informations/src'),
+    'Exceptions\\' => array($vendorDir . '/panpan76/logguer/src/Exceptions'),
     'Database\\' => array($baseDir . '/src'),
 );
